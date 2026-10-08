@@ -1,0 +1,10 @@
+WARNING: The directory '/home/oai/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /mnt/data/uav-mission-teaching-lab
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: uav-mission-teaching-lab
+  Building wheel for uav-mission-teaching-lab (pyproject.toml): started
+  Building wheel for uav-mission-teaching-lab (pyproject.toml): finished with status 'done'
+  Created wheel for uav-mission-teaching-lab: filename=uav_mission_teaching_lab-0.1.0-py3-none-any.whl size=20672 sha256=cfe68fce0caffc2491ead3b75a8f9be922ef4f05367553e92c40976463ba6edf
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9dvn6dv2/wheels/9e/6b/23/8f9a78c8349b83b20bd274e00bfd294b365491951ccbaf4181
+Successfully built uav-mission-teaching-lab

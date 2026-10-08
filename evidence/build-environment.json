@@ -1,0 +1,17 @@
+{
+  "project_version": "0.1.0",
+  "python_version": "3.13.5",
+  "python_executable": "/opt/pyvenv/bin/python",
+  "operating_system": "Linux",
+  "os_release": "6.18.44",
+  "architecture": "x86_64",
+  "python_supported": true,
+  "gazebo_command": null,
+  "git_command": "/usr/bin/git",
+  "packages": {
+    "mavsdk-grpc": null,
+    "grpcio": "1.80.0",
+    "protobuf": "6.33.6"
+  },
+  "note": "Read-only environment check. Does not connect, install, arm, or launch anything."
+}

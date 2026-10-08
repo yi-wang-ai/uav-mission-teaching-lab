@@ -1,0 +1,65 @@
+test_bad_config_is_a_usage_error (test_cli.CliTests.test_bad_config_is_a_usage_error) ... ok
+test_demo_exit_zero (test_cli.CliTests.test_demo_exit_zero) ... ok
+test_doctor_is_read_only_and_returns_json (test_cli.CliTests.test_doctor_is_read_only_and_returns_json) ... ok
+test_expected_fault_exit_nonzero (test_cli.CliTests.test_expected_fault_exit_nonzero) ... ok
+test_px4_requires_explicit_confirmation (test_cli.CliTests.test_px4_requires_explicit_confirmation) ... ok
+test_default_closed_square (test_config_geometry.ConfigTests.test_default_closed_square) ... ok
+test_degenerate_route_rejected (test_config_geometry.ConfigTests.test_degenerate_route_rejected) ... ok
+test_far_waypoint_rejected (test_config_geometry.ConfigTests.test_far_waypoint_rejected) ... ok
+test_nonfinite_and_boolean_inputs_rejected (test_config_geometry.ConfigTests.test_nonfinite_and_boolean_inputs_rejected) ... ok
+test_nonobject_config_rejected (test_config_geometry.ConfigTests.test_nonobject_config_rejected) ... ok
+test_open_route_rejected (test_config_geometry.ConfigTests.test_open_route_rejected) ... ok
+test_operating_bounds (test_config_geometry.ConfigTests.test_operating_bounds) ... ok
+test_round_trip_json (test_config_geometry.ConfigTests.test_round_trip_json) ... ok
+test_unknown_key_rejected (test_config_geometry.ConfigTests.test_unknown_key_rejected) ... ok
+test_wrong_coordinate_shape_rejected (test_config_geometry.ConfigTests.test_wrong_coordinate_shape_rejected) ... ok
+test_date_line_wrap (test_config_geometry.GeometryTests.test_date_line_wrap) ... ok
+test_home_offset_is_home (test_config_geometry.GeometryTests.test_home_offset_is_home) ... ok
+test_invalid_home_rejected (test_config_geometry.GeometryTests.test_invalid_home_rejected) ... ok
+test_round_trip_offsets (test_config_geometry.GeometryTests.test_round_trip_offsets) ... ok
+test_waypoint_altitude_is_relative (test_config_geometry.GeometryTests.test_waypoint_altitude_is_relative) ... ok
+test_missing_battery_rejected (test_config_geometry.SnapshotTests.test_missing_battery_rejected) ... ok
+test_negative_telemetry_age_rejected (test_config_geometry.SnapshotTests.test_negative_telemetry_age_rejected) ... ok
+test_nonboolean_state_rejected (test_config_geometry.SnapshotTests.test_nonboolean_state_rejected) ... ok
+test_valid_snapshot (test_config_geometry.SnapshotTests.test_valid_snapshot) ... ok
+test_cleanup_stops_only_owned_sdk_server (test_px4_adapter.AdapterTests.test_cleanup_stops_only_owned_sdk_server) ... ok
+test_completion_is_latched (test_px4_adapter.AdapterTests.test_completion_is_latched) ... ok
+test_disconnection_is_failure (test_px4_adapter.AdapterTests.test_disconnection_is_failure) ... ok
+test_freshness_is_checked_after_a_slow_rpc (test_px4_adapter.AdapterTests.test_freshness_is_checked_after_a_slow_rpc) ... ok
+test_missing_stream_is_not_ready (test_px4_adapter.AdapterTests.test_missing_stream_is_not_ready) ... ok
+test_periodic_stream_staleness_is_rejected (test_px4_adapter.AdapterTests.test_periodic_stream_staleness_is_rejected) ... ok
+test_previous_mission_not_queried_before_new_start (test_px4_adapter.AdapterTests.test_previous_mission_not_queried_before_new_start) ... ok
+test_recovery_does_not_depend_on_mission_rpc (test_px4_adapter.AdapterTests.test_recovery_does_not_depend_on_mission_rpc) ... ok
+test_reported_home_used (test_px4_adapter.AdapterTests.test_reported_home_used) ... ok
+test_snapshot_maps_expected_fields (test_px4_adapter.AdapterTests.test_snapshot_maps_expected_fields) ... ok
+test_state_change_streams_are_not_treated_as_stale (test_px4_adapter.AdapterTests.test_state_change_streams_are_not_treated_as_stale) ... ok
+test_stream_errors_are_not_silent (test_px4_adapter.AdapterTests.test_stream_errors_are_not_silent) ... ok
+test_stream_exception_is_captured (test_px4_adapter.AdapterTests.test_stream_exception_is_captured) ... ok
+test_upload_requests_rtl (test_px4_adapter.AdapterTests.test_upload_requests_rtl) ... ok
+test_wrong_airframe_is_rejected_before_commands (test_px4_adapter.AdapterTests.test_wrong_airframe_is_rejected_before_commands) ... ok
+test_pinned_library_accepts_mission_item_fields (test_px4_adapter.InstalledMavsdkContractTests.test_pinned_library_accepts_mission_item_fields) ... skipped 'optional MAVSDK package not installed; not an integration test'
+test_pinned_library_has_cleanup_hook (test_px4_adapter.InstalledMavsdkContractTests.test_pinned_library_has_cleanup_hook) ... skipped 'optional MAVSDK package not installed; not an integration test'
+test_confirmation_required_before_import_or_connection (test_px4_adapter.PlanTests.test_confirmation_required_before_import_or_connection) ... ok
+test_connection_is_loopback_only (test_px4_adapter.PlanTests.test_connection_is_loopback_only) ... ok
+test_first_item_is_explicit_takeoff (test_px4_adapter.PlanTests.test_first_item_is_explicit_takeoff) ... ok
+test_all_evidence_hashes_match (test_runner.RunnerTests.test_all_evidence_hashes_match) ... ok
+test_already_armed_vehicle_refused (test_runner.RunnerTests.test_already_armed_vehicle_refused) ... ok
+test_ambiguous_arm_timeout_attempts_recovery (test_runner.RunnerTests.test_ambiguous_arm_timeout_attempts_recovery) ... ok
+test_cancellation_is_recorded_and_recovery_attempted (test_runner.RunnerTests.test_cancellation_is_recorded_and_recovery_attempted) ... ok
+test_connect_failure_still_writes_report (test_runner.RunnerTests.test_connect_failure_still_writes_report) ... ok
+test_existing_output_not_overwritten (test_runner.RunnerTests.test_existing_output_not_overwritten) ... ok
+test_link_loss_never_claims_landed (test_runner.RunnerTests.test_link_loss_never_claims_landed) ... ok
+test_low_battery_never_arms (test_runner.RunnerTests.test_low_battery_never_arms) ... ok
+test_never_airborne_cannot_be_success (test_runner.RunnerTests.test_never_airborne_cannot_be_success) ... ok
+test_normal_mission_completes_and_lands (test_runner.RunnerTests.test_normal_mission_completes_and_lands) ... ok
+test_premature_landing_is_failure (test_runner.RunnerTests.test_premature_landing_is_failure) ... ok
+test_report_is_labelled_and_html_escaped (test_runner.RunnerTests.test_report_is_labelled_and_html_escaped) ... ok
+test_stale_telemetry_refused (test_runner.RunnerTests.test_stale_telemetry_refused) ... ok
+test_stalled_mission_remains_failed_after_recovery (test_runner.RunnerTests.test_stalled_mission_remains_failed_after_recovery) ... ok
+test_unhealthy_preflight_times_out (test_runner.RunnerTests.test_unhealthy_preflight_times_out) ... ok
+test_upload_does_not_bypass_second_readiness_check (test_runner.RunnerTests.test_upload_does_not_bypass_second_readiness_check) ... ok
+
+----------------------------------------------------------------------
+Ran 60 tests in 0.224s
+
+OK (skipped=2)

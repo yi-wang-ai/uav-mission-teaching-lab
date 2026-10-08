@@ -1,0 +1,2 @@
+elapsed_s,phase,latitude_deg,longitude_deg,relative_altitude_m,battery_fraction,in_air,armed,healthy,flight_mode,mission_current,mission_total,mission_finished,position_age_s,battery_age_s
+0.0,preflight,47.397742,8.545593999999994,0.0,0.1,False,False,True,READY,0,0,False,0.0,0.0

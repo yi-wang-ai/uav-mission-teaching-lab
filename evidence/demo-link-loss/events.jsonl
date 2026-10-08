@@ -1,0 +1,12 @@
+{"elapsed_s": 0.0, "event": "run_started", "detail": "offline-demo"}
+{"elapsed_s": 0.0, "event": "connected", "detail": ""}
+{"elapsed_s": 0.0, "event": "preflight_passed", "detail": ""}
+{"elapsed_s": 0.0, "event": "mission_uploaded", "detail": "5 waypoints; return-and-land requested"}
+{"elapsed_s": 0.0, "event": "arm_requested", "detail": ""}
+{"elapsed_s": 0.0, "event": "arm_acknowledged", "detail": ""}
+{"elapsed_s": 0.0, "event": "mission_start_acknowledged", "detail": ""}
+{"elapsed_s": 0.5, "event": "airborne_observed", "detail": ""}
+{"elapsed_s": 15.0, "event": "run_failed", "detail": "LabError: synthetic link loss: telemetry unavailable"}
+{"elapsed_s": 15.0, "event": "recovery_land_requested", "detail": "Best effort only; not an onboard failsafe validation"}
+{"elapsed_s": 15.0, "event": "recovery_unconfirmed", "detail": "LabError: synthetic link loss: land command not delivered"}
+{"elapsed_s": 15.0, "event": "run_finished", "detail": "failed"}

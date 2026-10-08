@@ -1,0 +1,17 @@
+{
+  "project_version": "0.1.0",
+  "python_version": "3.14.5",
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "operating_system": "Darwin",
+  "os_release": "25.3.0",
+  "architecture": "arm64",
+  "python_supported": true,
+  "gazebo_command": null,
+  "git_command": "/usr/bin/git",
+  "packages": {
+    "mavsdk-grpc": null,
+    "grpcio": null,
+    "protobuf": null
+  },
+  "note": "Read-only environment check. Does not connect, install, arm, or launch anything."
+}

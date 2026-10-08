@@ -1,0 +1,6 @@
+Backend: offline-demo
+SYNTHETIC SOFTWARE TEST DATA — not PX4 / Gazebo flight evidence
+Status: failed
+Telemetry samples: 33
+Report: evidence/demo-link-loss/report.html
+Reason: LabError: synthetic link loss: telemetry unavailable

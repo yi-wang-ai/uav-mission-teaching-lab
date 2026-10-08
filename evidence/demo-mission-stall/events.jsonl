@@ -1,0 +1,13 @@
+{"elapsed_s": 0.0, "event": "run_started", "detail": "offline-demo"}
+{"elapsed_s": 0.0, "event": "connected", "detail": ""}
+{"elapsed_s": 0.0, "event": "preflight_passed", "detail": ""}
+{"elapsed_s": 0.0, "event": "mission_uploaded", "detail": "5 waypoints; return-and-land requested"}
+{"elapsed_s": 0.0, "event": "arm_requested", "detail": ""}
+{"elapsed_s": 0.0, "event": "arm_acknowledged", "detail": ""}
+{"elapsed_s": 0.0, "event": "mission_start_acknowledged", "detail": ""}
+{"elapsed_s": 0.5, "event": "airborne_observed", "detail": ""}
+{"elapsed_s": 180.5, "event": "run_failed", "detail": "LabError: mission timeout after 180 seconds"}
+{"elapsed_s": 180.5, "event": "recovery_land_requested", "detail": "Best effort only; not an onboard failsafe validation"}
+{"elapsed_s": 180.5, "event": "recovery_land_acknowledged", "detail": ""}
+{"elapsed_s": 190.5, "event": "recovery_landing_observed", "detail": ""}
+{"elapsed_s": 190.5, "event": "run_finished", "detail": "failed"}

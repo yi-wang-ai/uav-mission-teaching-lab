@@ -1,0 +1,15 @@
+{
+  "name": "square-20m",
+  "altitude_m": 10.0,
+  "speed_m_s": 3.0,
+  "waypoints_ne_m": [[0, 0], [20, 0], [20, 20], [0, 20], [0, 0]],
+  "min_battery_fraction": 0.4,
+  "connect_timeout_s": 30,
+  "ready_timeout_s": 60,
+  "takeoff_timeout_s": 40,
+  "mission_timeout_s": 180,
+  "landing_timeout_s": 120,
+  "command_timeout_s": 10,
+  "poll_interval_s": 0.5,
+  "telemetry_max_age_s": 5
+}

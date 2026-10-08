@@ -1,0 +1,5 @@
+Backend: offline-demo
+SYNTHETIC SOFTWARE TEST DATA — not PX4 / Gazebo flight evidence
+Status: completed
+Telemetry samples: 99
+Report: evidence/demo-normal/report.html

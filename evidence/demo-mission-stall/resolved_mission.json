@@ -1,0 +1,39 @@
+{
+  "home": {
+    "absolute_altitude_m": 488.0,
+    "latitude_deg": 47.397742,
+    "longitude_deg": 8.545594
+  },
+  "waypoints": [
+    {
+      "latitude_deg": 47.397742,
+      "longitude_deg": 8.545593999999994,
+      "relative_altitude_m": 10.0,
+      "speed_m_s": 3.0
+    },
+    {
+      "latitude_deg": 47.39792166305683,
+      "longitude_deg": 8.545593999999994,
+      "relative_altitude_m": 10.0,
+      "speed_m_s": 3.0
+    },
+    {
+      "latitude_deg": 47.39792166305683,
+      "longitude_deg": 8.545859418430297,
+      "relative_altitude_m": 10.0,
+      "speed_m_s": 3.0
+    },
+    {
+      "latitude_deg": 47.397742,
+      "longitude_deg": 8.545859418430297,
+      "relative_altitude_m": 10.0,
+      "speed_m_s": 3.0
+    },
+    {
+      "latitude_deg": 47.397742,
+      "longitude_deg": 8.545593999999994,
+      "relative_altitude_m": 10.0,
+      "speed_m_s": 3.0
+    }
+  ]
+}

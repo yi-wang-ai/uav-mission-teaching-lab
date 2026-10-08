@@ -1,0 +1,25 @@
+{
+  "backend": "offline-demo",
+  "config_sha256": "909035d0b6ef5d002a73e72a45adf3947e3c0e3130257c95a30b0351ba03e061",
+  "data_kind": "synthetic software test data",
+  "limitations": [
+    "No physical-drone validation.",
+    "Host-receipt samples are not time-synchronised sensor ground truth.",
+    "Route limits are not an onboard geofence; return altitude depends on PX4 settings."
+  ],
+  "metadata": {
+    "px4_executed": false,
+    "scenario": "low-battery"
+  },
+  "packages": {
+    "grpcio": "1.80.0",
+    "mavsdk-grpc": null,
+    "protobuf": "6.33.6"
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "project_version": "0.1.0",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "source_sha256": "ce97237d09102df6067221b1a2856827e49c946efdd16c006302002390976e1e",
+  "started_utc": "2026-10-08T02:38:17.093738+00:00",
+  "time_basis": "virtual demo seconds"
+}

@@ -1,0 +1,14 @@
+{
+  "airborne_observed": false,
+  "arm_attempted": false,
+  "backend": "offline-demo",
+  "elapsed_s": 0.0,
+  "error": "LabError: preflight refused: battery below configured threshold",
+  "landing_observed": false,
+  "mission_finished_observed": false,
+  "observed_max_altitude_m": 0.0,
+  "observed_min_battery_fraction": 0.1,
+  "recorded_samples": 1,
+  "recovery": "not_needed",
+  "status": "failed"
+}

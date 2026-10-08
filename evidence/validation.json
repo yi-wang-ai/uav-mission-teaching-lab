@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-10-08T02:38:18.798823+00:00",
+  "python": "3.13.5",
+  "os": "Linux",
+  "architecture": "x86_64",
+  "source_sha256": "ce97237d09102df6067221b1a2856827e49c946efdd16c006302002390976e1e",
+  "tests_discovered": 60,
+  "tests_passed": 58,
+  "tests_skipped": 2,
+  "tests_failed": 0,
+  "tests_errored": 0,
+  "python_compileall": "passed",
+  "bash_syntax": "passed",
+  "wheel_build": "passed",
+  "offline_cli_scenarios": "all four returned the expected exit codes",
+  "mavsdk_package_installed": false,
+  "px4_built": false,
+  "gazebo_executed": false,
+  "physical_flight": false,
+  "macos_executed": false,
+  "github_actions_executed": false,
+  "test_commands": [
+    "python -m unittest discover -s tests -v",
+    "python -m compileall -q uav_lab tests",
+    "bash -n scripts/clone_px4.sh",
+    "bash -n scripts/start_px4.sh",
+    "python -m pip wheel --no-deps --no-build-isolation --no-index . -w /mnt/data/uav-build-check"
+  ],
+  "html_static_structure_and_links": "passed",
+  "html_browser_render": "not run: browser executable absent"
+}

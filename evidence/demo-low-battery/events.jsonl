@@ -1,0 +1,4 @@
+{"elapsed_s": 0.0, "event": "run_started", "detail": "offline-demo"}
+{"elapsed_s": 0.0, "event": "connected", "detail": ""}
+{"elapsed_s": 0.0, "event": "run_failed", "detail": "LabError: preflight refused: battery below configured threshold"}
+{"elapsed_s": 0.0, "event": "run_finished", "detail": "failed"}

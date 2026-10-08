@@ -1,0 +1,53 @@
+{
+  "data_kind": "synthetic software test data; no PX4 run",
+  "results": [
+    {
+      "scenario": "normal",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "completed",
+      "airborne_observed": true,
+      "mission_finished_observed": true,
+      "landing_observed": true,
+      "recovery": "not_needed",
+      "recorded_samples": 99,
+      "virtual_demo_seconds": 47.0
+    },
+    {
+      "scenario": "low-battery",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "status": "failed",
+      "airborne_observed": false,
+      "mission_finished_observed": false,
+      "landing_observed": false,
+      "recovery": "not_needed",
+      "recorded_samples": 1,
+      "virtual_demo_seconds": 0.0
+    },
+    {
+      "scenario": "mission-stall",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "status": "failed",
+      "airborne_observed": true,
+      "mission_finished_observed": false,
+      "landing_observed": true,
+      "recovery": "landing_observed",
+      "recorded_samples": 385,
+      "virtual_demo_seconds": 190.5
+    },
+    {
+      "scenario": "link-loss",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "status": "failed",
+      "airborne_observed": true,
+      "mission_finished_observed": false,
+      "landing_observed": false,
+      "recovery": "unconfirmed",
+      "recorded_samples": 33,
+      "virtual_demo_seconds": 15.0
+    }
+  ]
+}

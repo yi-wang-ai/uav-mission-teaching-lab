@@ -1,0 +1,6 @@
+Backend: offline-demo
+SYNTHETIC SOFTWARE TEST DATA — not PX4 / Gazebo flight evidence
+Status: failed
+Telemetry samples: 1
+Report: evidence/demo-low-battery/report.html
+Reason: LabError: preflight refused: battery below configured threshold

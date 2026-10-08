@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UAV Lab report — square-20m</title>
+<style>
+body{font:16px/1.6 system-ui,sans-serif;max-width:980px;margin:40px auto;padding:0 24px}
+h1{font-size:2.1rem;line-height:1.2;margin-bottom:12px}h2{margin-top:36px}
+.notice{border:2px solid;padding:16px;font-weight:600}.eyebrow{letter-spacing:.12em;font-size:.8rem}
+table{border-collapse:collapse;width:100%;font-size:.9rem}th,td{padding:10px 12px;border-bottom:1px solid #ccc;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.summary th{width:48%}.scroll{overflow-x:auto}code{font-family:monospace}footer{margin-top:40px;border-top:1px solid;padding-top:16px;font-size:.85rem}
+@media print{body{margin:0;max-width:none}thead{display:table-header-group}tr{break-inside:avoid}}
+</style></head><body>
+<p class="eyebrow">UAV MISSION TEACHING LAB / RUN EVIDENCE</p>
+<h1>square-20m</h1><p class="notice">OFFLINE DEMO — Synthetic software test data. No PX4 or Gazebo flight was run.</p>
+<p>The report separates command requests from observed outcomes. A failed mission remains failed even when recovery landing succeeds.</p>
+<h2>Outcome</h2><div class="scroll"><table class="summary"><tbody><tr><th scope='row'>status</th><td>failed</td></tr><tr><th scope='row'>error</th><td>LabError: preflight refused: battery below configured threshold</td></tr><tr><th scope='row'>elapsed s</th><td>0.0</td></tr><tr><th scope='row'>arm attempted</th><td>False</td></tr><tr><th scope='row'>airborne observed</th><td>False</td></tr><tr><th scope='row'>mission finished observed</th><td>False</td></tr><tr><th scope='row'>landing observed</th><td>False</td></tr><tr><th scope='row'>recovery</th><td>not_needed</td></tr><tr><th scope='row'>backend</th><td>offline-demo</td></tr><tr><th scope='row'>recorded samples</th><td>1</td></tr><tr><th scope='row'>observed max altitude m</th><td>0.0</td></tr><tr><th scope='row'>observed min battery fraction</th><td>0.1</td></tr></tbody></table></div>
+<h2>Event timeline</h2><div class="scroll"><table><thead><tr><th>Elapsed seconds</th><th>Event</th><th>Detail</th></tr></thead><tbody><tr><td>0.00</td><td>run_started</td><td>offline-demo</td></tr><tr><td>0.00</td><td>connected</td><td></td></tr><tr><td>0.00</td><td>run_failed</td><td>LabError: preflight refused: battery below configured threshold</td></tr><tr><td>0.00</td><td>run_finished</td><td>failed</td></tr></tbody></table></div>
+<h2>Evidence files</h2><p><a href="telemetry.csv">Telemetry CSV</a> · <a href="events.jsonl">Events JSONL</a> · <a href="manifest.json">Environment and provenance</a> · <a href="config.json">Mission configuration</a> · <a href="summary.json">Machine-readable result</a></p>
+<h2>Interpretation</h2><p>Altitude and battery are sampled observations, not a full-rate flight log. No trajectory-accuracy or safety-certification claim is made. Archive the PX4 ULog and parameter export separately for a simulator experiment.</p>
+<footer>Version 0.1.0. Simulation-only educational prototype. No real-drone commands are supported by this project.</footer>
+</body></html>

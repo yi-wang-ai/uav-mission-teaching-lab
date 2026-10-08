@@ -1,0 +1,14 @@
+{
+  "airborne_observed": true,
+  "arm_attempted": true,
+  "backend": "offline-demo",
+  "elapsed_s": 15.0,
+  "error": "LabError: synthetic link loss: telemetry unavailable",
+  "landing_observed": false,
+  "mission_finished_observed": false,
+  "observed_max_altitude_m": 10.0,
+  "observed_min_battery_fraction": 0.9855,
+  "recorded_samples": 33,
+  "recovery": "unconfirmed",
+  "status": "failed"
+}

@@ -1,0 +1,6 @@
+Backend: offline-demo
+SYNTHETIC SOFTWARE TEST DATA — not PX4 / Gazebo flight evidence
+Status: failed
+Telemetry samples: 385
+Report: evidence/demo-mission-stall/report.html
+Reason: LabError: mission timeout after 180 seconds
