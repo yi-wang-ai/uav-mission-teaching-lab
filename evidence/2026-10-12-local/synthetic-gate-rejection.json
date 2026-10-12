@@ -1,0 +1,47 @@
+{
+  "accepted": false,
+  "errors": [
+    "Exactly three distinct run directories are required",
+    "Three independently recorded start times are required"
+  ],
+  "runs": [
+    {
+      "run": "evidence/demo-normal",
+      "accepted": false,
+      "errors": [
+        "Synthetic/offline data cannot satisfy the PX4 gate"
+      ],
+      "scope": "application evidence gate; independent ULog review still required",
+      "backend": "offline-demo",
+      "started_utc": "2026-10-08T02:38:16.360401+00:00",
+      "source_sha256": "ce97237d09102df6067221b1a2856827e49c946efdd16c006302002390976e1e",
+      "config_sha256": "909035d0b6ef5d002a73e72a45adf3947e3c0e3130257c95a30b0351ba03e061"
+    },
+    {
+      "run": "evidence/demo-normal",
+      "accepted": false,
+      "errors": [
+        "Synthetic/offline data cannot satisfy the PX4 gate"
+      ],
+      "scope": "application evidence gate; independent ULog review still required",
+      "backend": "offline-demo",
+      "started_utc": "2026-10-08T02:38:16.360401+00:00",
+      "source_sha256": "ce97237d09102df6067221b1a2856827e49c946efdd16c006302002390976e1e",
+      "config_sha256": "909035d0b6ef5d002a73e72a45adf3947e3c0e3130257c95a30b0351ba03e061"
+    },
+    {
+      "run": "evidence/demo-normal",
+      "accepted": false,
+      "errors": [
+        "Synthetic/offline data cannot satisfy the PX4 gate"
+      ],
+      "scope": "application evidence gate; independent ULog review still required",
+      "backend": "offline-demo",
+      "started_utc": "2026-10-08T02:38:16.360401+00:00",
+      "source_sha256": "ce97237d09102df6067221b1a2856827e49c946efdd16c006302002390976e1e",
+      "config_sha256": "909035d0b6ef5d002a73e72a45adf3947e3c0e3130257c95a30b0351ba03e061"
+    }
+  ],
+  "physical_flight_claim": false,
+  "limitation": "Checks application records only. Review matching PX4 ULogs, revision and parameters separately."
+}

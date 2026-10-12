@@ -1,0 +1,14 @@
+Collecting pyulog==1.2.4
+  Downloading pyulog-1.2.4-py3-none-any.whl.metadata (1.6 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting numpy>=1.25 (from pyulog==1.2.4)
+  Downloading numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Downloading pyulog-1.2.4-py3-none-any.whl (52 kB)
+Downloading numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 7.3 MB/s  0:00:00
+Installing collected packages: numpy, pyulog
+
+Successfully installed numpy-2.5.4 pyulog-1.2.4
+
+[notice] A new release of pip is available: 26.1.1 -> 26.2.1
+[notice] To update, run: /Users/wangyi/Downloads/uav-mission-teaching-lab/.venv/bin/python -m pip install --upgrade pip

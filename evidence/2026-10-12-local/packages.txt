@@ -1,0 +1,7 @@
+grpcio==1.84.0
+mavsdk-grpc==4.0.5
+numpy==2.5.4
+protobuf==7.36.2
+pyulog==1.2.4
+typing_extensions==4.16.0
+-e git+https://github.com/yi-wang-ai/uav-mission-teaching-lab.git@756814007a44c646cc390abe6cad422c4d48250d#egg=uav_mission_teaching_lab

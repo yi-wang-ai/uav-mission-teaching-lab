@@ -1,0 +1,2 @@
+usage: run_sitl_baseline.py [-h] [--confirm-sitl] --output OUTPUT
+run_sitl_baseline.py: error: Requires --confirm-sitl on a dedicated Linux simulator host

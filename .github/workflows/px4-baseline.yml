@@ -1,0 +1,44 @@
+name: PX4 baseline (manual, simulation only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: px4-baseline-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  baseline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch exact PX4 revision
+        run: bash scripts/clone_px4.sh
+      - name: Install upstream Linux simulator dependencies
+        run: bash vendor/PX4-Autopilot/Tools/setup/ubuntu.sh --no-nuttx
+      - name: Install pinned Python adapter and ULog reader
+        run: python -m pip install -e '.[px4]' pyulog==1.2.4
+      - name: Validate actual installed SDK before any simulator commands
+        run: python -m unittest discover -s tests -v
+      - name: Build simulator without launching a mission
+        working-directory: vendor/PX4-Autopilot
+        run: DONT_RUN=1 make px4_sitl gz_x500
+      - name: Capture environment
+        run: |
+          mkdir -p runs/environment
+          python -m uav_lab doctor > runs/environment/doctor.json
+          python -m pip freeze > runs/environment/python-packages.txt
+          dpkg-query -W > runs/environment/system-packages.txt
+      - name: Execute and independently check three baseline missions
+        run: python scripts/run_sitl_baseline.py --confirm-sitl --output runs/baseline
+      - name: Retain all evidence, including failed attempts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: px4-baseline-${{ github.run_id }}
+          path: runs/
+          if-no-files-found: warn
+          retention-days: 14

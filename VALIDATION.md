@@ -1,3 +1,6 @@
+Latest local update: [12 October 2026](evidence/2026-10-12-local/VALIDATION.md).
+The record below is historical.
+
 # Validation record — v0.1.0
 
 **Executed on 8 October 2026, using Python 3.13.5 on Linux x86_64.**

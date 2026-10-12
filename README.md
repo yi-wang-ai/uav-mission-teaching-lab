@@ -18,6 +18,18 @@ Verified on macOS arm64 with Python 3.14.5 on 8 October 2026:
 See [Mac validation evidence](evidence/macos-local/VALIDATION.md).
 The next milestone is an actual PX4/Gazebo baseline mission on Linux.
 
+## Strengthening update — 12 October 2026
+
+The pinned MAVSDK package is now installed and its API-contract tests pass on
+macOS ARM64. The enhanced suite has **70 passing tests with no skips**.
+New tools provide a read-only three-run evidence gate, a Linux baseline harness
+with independent ULog state checks, and a manual GitHub Actions baseline workflow.
+
+See [baseline automation](docs/BASELINE_AUTOMATION.md),
+[teaching demonstration](docs/TEACHING_DEMO.md) and
+[current validation](evidence/2026-10-12-local/VALIDATION.md).
+**No PX4/Gazebo flight or GitHub Actions run has been verified by this update.**
+
 ## Start here
 
 Open [START_HERE.md](START_HERE.md). The first exercise needs only Python 3.10+;
@@ -41,7 +53,7 @@ each run; existing directories are deliberately refused.
 | Readiness checks, bounded commands, mission and landing observation | Offline test-double tests |
 | Preflight low-battery refusal, mission stall and link-loss cases | Synthetic scenarios; **not PX4 failsafe experiments** |
 | CSV telemetry, JSONL events, JSON summary, HTML report and source/config hashes | Generated and tested locally |
-| MAVSDK gRPC adapter for PX4/Gazebo x500 | Implemented; mocked adapter tests; actual package and simulator validation pending |
+| MAVSDK gRPC adapter for PX4/Gazebo x500 | Implemented; installed-package contract verified locally; simulator validation pending |
 | Introductory teaching exercise and worksheet | Written; not delivered to students |
 | GitHub Actions workflow | Supplied; not executed on GitHub |
 

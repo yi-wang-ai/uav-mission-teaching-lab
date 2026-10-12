@@ -1,0 +1,38 @@
+WARNING: Cache entry deserialization failed, entry ignored
+Obtaining file:///Users/wangyi/Downloads/uav-mission-teaching-lab
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting mavsdk-grpc==4.0.5 (from uav-mission-teaching-lab==0.1.0)
+  Downloading mavsdk_grpc-4.0.5-py3-none-macosx_14_0_arm64.whl.metadata (8.6 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting protobuf>=6.32.1 (from mavsdk-grpc==4.0.5->uav-mission-teaching-lab==0.1.0)
+  Downloading protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl.metadata (595 bytes)
+Collecting grpcio>=1.64.1 (from mavsdk-grpc==4.0.5->uav-mission-teaching-lab==0.1.0)
+  Downloading grpcio-1.84.0-cp314-cp314-macosx_11_0_universal2.whl.metadata (3.8 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting typing-extensions~=4.12 (from grpcio>=1.64.1->mavsdk-grpc==4.0.5->uav-mission-teaching-lab==0.1.0)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading mavsdk_grpc-4.0.5-py3-none-macosx_14_0_arm64.whl (12.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 4.8 MB/s  0:00:02
+Downloading grpcio-1.84.0-cp314-cp314-macosx_11_0_universal2.whl (12.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 13.0 MB/s  0:00:00
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl (456 kB)
+Building wheels for collected packages: uav-mission-teaching-lab
+  Building editable for uav-mission-teaching-lab (pyproject.toml): started
+  Building editable for uav-mission-teaching-lab (pyproject.toml): finished with status 'done'
+  Created wheel for uav-mission-teaching-lab: filename=uav_mission_teaching_lab-0.1.0-0.editable-py3-none-any.whl size=7335 sha256=8e223c54f66ddeb503fc976d66964c3c12cde69b2f705c9a5d3cf980974a87d6
+  Stored in directory: /private/var/folders/8w/39zc48zj0_g6fh3jz5wc9fpm0000gn/T/pip-ephem-wheel-cache-8tuae6cj/wheels/3d/db/fc/0f32236a9306c15484d885eb5a2e2ffc902330dc51abf17bfb
+Successfully built uav-mission-teaching-lab
+Installing collected packages: uav-mission-teaching-lab, typing-extensions, protobuf, grpcio, mavsdk-grpc
+
+Successfully installed grpcio-1.84.0 mavsdk-grpc-4.0.5 protobuf-7.36.2 typing-extensions-4.16.0 uav-mission-teaching-lab-0.1.0
+
+[notice] A new release of pip is available: 26.1.1 -> 26.2.1
+[notice] To update, run: /Users/wangyi/Downloads/uav-mission-teaching-lab/.venv/bin/python -m pip install --upgrade pip
